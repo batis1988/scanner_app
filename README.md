@@ -1,62 +1,71 @@
-# Document Scanner (OCR + NER)
+## Document Scanner (OCR + NER)
 
-Welocome to Document Scanner application!
-Hope, you will find it useful for quick extraction of information from different sources (business cards, letters, etc). Created using such scientific approaches like,
-* Computer Vision
-* Natural Language Processing
+Welcome to the Document Scanner application! This tool is designed to quickly extract information from various sources, such as business cards and letters. It was created using the following scientific approaches:
 
-Built with sequencing: Load image -> Preprocess with CV -> Extract text blocks with OCR -> NER with NLP
+- **Computer Vision**
+- **Natural Language Processing**
 
-Python Libraries used in Computer Vision Module.
-- OpenCV
-- Numpy
-- Pytesseract
+The application is built with the following sequencing:
 
-Python Libraries used in Natural Language Processing
+1. Load image
+2. Preprocess with Computer Vision
+3. Extract text blocks with OCR
+4. Perform NER with NLP
 
-SpaCy
-- Pandas
-- Regular Expression
-- String
+### Python Libraries
 
-Two major technologies were combined to develop the project.
+The following Python libraries are used in the Computer Vision module:
 
-Stage 1: Setup the project by doing the necessary installations and requirements.
+- **OpenCV**
+- **Numpy**
+- **Pytesseract**
 
-Install Python\
-Install Dependencies\
-Create VEnv\
+And in the Natural Language Processing module:
 
-Stage 2: Data preparation stage. Extract text from images using Pytesseract and also do necessary cleaning.
+- **SpaCy**
+- **Pandas**
+- **Regular Expression**
+- **String**
 
-Gather Images\
-Overview on Pytesseract\
-Extract Text from all Image\
-Clean and Prepare text\
+### Stages
 
-Stage 3: Labeling NER data using BIO tagging.
+The project involves six stages:
 
-Manually Labeling with BIO technique\
-B - Beginning\
-I - Inside\
-O - Outside\
+**Stage 1: Setup**
 
-Stage 4: Splitting to a train/test sets, converting into a SpaCy format.
+1. Install Python
+2. Install Dependencies
+3. Create VEnv
 
-Prepare Training Data for Spacy\
-Convert data into spacy format\
+**Stage 2: Data Preparation**
 
-Stage 5: Train NER model with specified Spacy's best practicies.
+1. Gather Images
+2. Overview on Pytesseract
+3. Extract Text from all Images
+4. Clean and Prepare text
 
-Configuring NER Model\
-Train the model\
-Train the model\
+**Stage 3: Labeling NER Data**
 
-Stage 6: Perform with image preprocessing, text extraction, data parsing, entities predictions.
+1. Manually Labeling with BIO technique
+2. B - Beginning
+3. I - Inside
+4. O - Outside
 
-Load Model\
-Render and Serve with Displacy\
-Draw Bounding Box on Image\
-Parse Entitles from Text\
+**Stage 4: Splitting to Train/Test Sets and Converting to SpaCy Format**
 
-Finally, gathered it all together and created a document scanner app.
+1. Prepare Training Data for Spacy
+2. Convert data into spacy format
+
+**Stage 5: Train NER Model**
+
+1. Configure NER Model
+2. Train the model
+
+**Stage 6: Perform with Image Preprocessing, Text Extraction, Data Parsing, and Entities Predictions**
+
+1. Load Model
+2. Render and Serve with Displacy
+3. Draw Bounding Box on Image
+4. Parse Entities from Text
+
+Finally, all these stages were gathered together to create a document scanner application.
