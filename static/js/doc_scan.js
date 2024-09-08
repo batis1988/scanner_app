@@ -1,7 +1,3 @@
-// Document Scanning With JavaScrip
-// Author : Srikanth
-// https://www.udemy.com/user/freeai-space/
-
 var circles = [];
 var canvas;
 var context;
